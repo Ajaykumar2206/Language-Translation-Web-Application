@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.translator-container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.translator-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px; /* Adds space between the "From" and "To" blocks */
+}
+
+.translator-from-block, .translator-to-block {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Adds space between elements within each block */
+}
+
+.translator-from-block h2, .translator-to-block h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.translator-language-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    background: #ffffff;
+    color: #333;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    min-height: 150px;
+    background: #ffffff;
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    transition: background 0.3s ease;
+}
+
+.translator-exchange-btn {
+    background: #ff9800;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px; /* Adds space around the exchange button */
+}
+
+.translator-exchange-btn:hover {
+    background: #e68a00;
+}
+
+.translator-exchange-btn i {
+    font-size: 20px;
+}
+
+.translator-translate-btn {
+    background: #4caf50;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 20px; /* Adds space above the translate button */
+}
+
+.translator-translate-btn:hover {
+    background: #388e3c;
+}
+
+.read-from-text, .read-to-text {
+    background: #2196f3;
+    color: #ffffff;
+}
+
+.read-from-text:hover, .read-to-text:hover {
+    background: #1976d2;
+}
+
+.translator-language-select:hover, textarea:hover {
+    border-color: #888;
+}
