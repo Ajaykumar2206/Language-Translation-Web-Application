@@ -10,13 +10,10 @@ A web-based language translator application that translates text between differe
 - Text-to-speech support for both input and translated text.
 - User-friendly interface with a colorful theme.
 
-## Demo
-
-You can view a live demo of the project [here](#).
-
 ## Screenshots
 
-![Translator Screenshot](screenshot.png)
+![image](https://github.com/user-attachments/assets/e738e990-9ebb-4af0-a805-409b585edfec)
+
 
 ## Getting Started
 
