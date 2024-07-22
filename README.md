@@ -48,8 +48,8 @@ These instructions will help you set up the project on your local machine for de
 - `screenshot.png`: A screenshot of the application for display in the README.
 
 ### Built With
-HTML5
-CSS3
+HTML5, 
+CSS3, 
 JavaScript 
 
 ### Project Structure
