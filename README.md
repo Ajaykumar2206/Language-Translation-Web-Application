@@ -57,3 +57,7 @@ language-translator/
 ├── main.js
 ├── country.js
 └── screenshot.png
+### Built With
+HTML5
+CSS3
+JavaScript
